@@ -1,0 +1,34 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data & outputs (keep small samples only in Git)
+data/raw/*
+data/processed/*
+outputs/models/*
+outputs/logs/*
+outputs/plots/*
+outputs/tables/*
+
+# Ignore zip and large files (use Git LFS or Releases instead)
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
